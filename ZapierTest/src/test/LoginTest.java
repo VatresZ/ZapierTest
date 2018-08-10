@@ -42,7 +42,7 @@ public class LoginTest extends InitTest{
 		assertTrue(logPage.isEmail());
 		assertTrue(logPage.isPass());
 		assertTrue(logPage.isLogin());
-		logPage.fillData("qazvtest@gmail.com", "");
+		logPage.fillData("test@gmail.com", "");
 		logPage.logIn();
 		// verifikacija
 		assertTrue(logPage.isMsgPresent());	
@@ -54,7 +54,7 @@ public class LoginTest extends InitTest{
 		assertTrue(logPage.isEmail());
 		assertTrue(logPage.isPass());
 		assertTrue(logPage.isLogin());
-		logPage.fillData("qazvtest@gmail.co", "zapiertestiranje");
+		logPage.fillData("test@gmail.co", "zapiertestiranje");
 		logPage.logIn();
 		// verifikacija
 		assertTrue(logPage.isMsgPresent());	
@@ -66,7 +66,7 @@ public class LoginTest extends InitTest{
 		assertTrue(logPage.isEmail());
 		assertTrue(logPage.isPass());
 		assertTrue(logPage.isLogin());
-		logPage.fillData("qazvtest@gmail.com", "zapiertestiranj");
+		logPage.fillData("test@gmail.com", "zapiertestiranj");
 		logPage.logIn();
 		// verifikacija
 		assertTrue(logPage.isMsgPresent());	
@@ -80,7 +80,7 @@ public class LoginTest extends InitTest{
 		assertTrue(logPage.isEmail());
 		assertTrue(logPage.isPass());
 		assertTrue(logPage.isLogin());
-		logPage.fillData("qazvtest@gmail.com", "zapiertestiranje");
+		logPage.fillData("test@gmail.com", "zapiertestiranje");
 		logPage.logIn();
 		// verifikacija
 		assertTrue(logPage.isMsgPresent());	
